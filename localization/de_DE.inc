@@ -2,12 +2,12 @@
 
 $labels = array();
 $labels['nosignature'] = 'Keine Signatur-Informationen';
-$labels['noauthresults'] = 'Signatur gefunden aber keinen "auth. results header". Serverkonfiguration korrekt?';
-$labels['signaturepass'] = 'Gültige Signatur(en) von der Domain des Absenders. Verifiziert durch';
-$labels['partialpass'] = 'Einige Signaturen sind ungültig aber es wurde zumindest eine gültige Signatur für die Domain des Absenders gefunden. Verifiziert durch';
-$labels['thirdparty'] = 'Signiert durch einen Dritten. Signatur ist vorhanden aber für eine andere Domain als die der Adresse. Verifiziert für';
-$labels['temporaryinvalid'] = 'Signatur ist (vorübergehend) nicht gültig! Verifiziert durch';
-$labels['invalidsignature'] = 'Signatur ist nicht gültig! Verifiziert durch';
+$labels['noauthresults'] = 'Signatur gefunden aber keine Auth-Results Kopfzeilen. Server-Konfigurations-Problem?';
+$labels['signaturepass'] = 'Gültige Signatur(en) von der Domain des Absenders. Verifiziert durch ';
+$labels['partialpass'] = 'Einige Signaturen sind ungültig aber es wurde zumindest eine gültige Signatur für die Domain des Absenders gefunden. Verifiziert durch ';
+$labels['thirdparty'] = 'Signiert durch einen Dritten. Signatur ist vorhanden aber für eine andere Domain als die der Adresse. Verifiziert für ';
+$labels['temporaryinvalid'] = 'Signatur ist (vorübergehend) nicht gültig! Verifiziert durch ';
+$labels['invalidsignature'] = 'Signatur ist nicht gültig! Verifiziert durch ';
 
 $labels['for'] = 'für';
 $labels['by'] = 'durch';
@@ -24,7 +24,7 @@ $labels['label_trusted_mtas'] = ' Komma separierte authserv-id Liste von mta\'s 
 
 $labels['title_include_status'] = 'Zeige nur die folgenden Status an';
 $labels['label_include_status1']  = 'Keine Signatur gefunden';
-$labels['label_include_status2']  = 'Signatur gefunden aber keinen "auth. results header"';
+$labels['label_include_status2']  = 'Signatur gefunden aber keine Auth-Results Kopfzeilen';
 $labels['label_include_status4']  = 'Alle Signaturen haben die Validierung bestanden';
 $labels['label_include_status8']  = 'Zumindest eine Signatur hat die Validierung bestanden';
 $labels['label_include_status16']  = 'Signatur durch Dritten';
